@@ -57,9 +57,9 @@ train_datagen = ImageDataGenerator(rescale=1./255)
 
 test_datagen = ImageDataGenerator(rescale=1./255)
 
-train_set = train_datagen.flow_from_directory('Train',target_size=(224, 224),batch_size=32,class_mode='categorical')
+train_set = train_datagen.flow_from_directory('Dataset/Train',target_size=(224, 224),batch_size=32,class_mode='categorical')
 
-test_set = test_datagen.flow_from_directory('Test',target_size=(224, 224),batch_size=32,class_mode='categorical')
+test_set = test_datagen.flow_from_directory('Dataset/dev',target_size=(224, 224),batch_size=32,class_mode='categorical')
 
 history = classifier.fit_generator(train_set,steps_per_epoch=47605,epochs=5,validation_data=test_set,validation_steps=12921,callbacks=[csv,checkpoint])
 
