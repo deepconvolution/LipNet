@@ -8,8 +8,8 @@ Lip-reading is the task of decoding text from the movement of a speaker’s mout
   ![alt text](category.png)
 
 ## Problem Statement:
-    **Input :** A Video file of a person speaking some word or phrase.
-    **Output :** The predicted word or phrase the person was speaking.
+    Input : A Video file of a person speaking some word or phrase.
+    Output : The predicted word or phrase the person was speaking.
 
 ## Technologies and frameworks :
     - Tensorflow
