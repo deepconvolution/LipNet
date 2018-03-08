@@ -12,13 +12,19 @@ Lip-reading is the task of decoding text from the movement of a speaker’s mout
     Output : The predicted word or phrase the person was speaking.
 
 ## Technologies and frameworks :
-    - Tensorflow
+    - Tensorflow1.2.1
     - Keras
     - Opencv3
     - python 3.5
 
 ## Use case:
-1)	Help in understanding what the speaker is speaking when there is noise in the background (like when travelling in a vehicle or watching a video in a very noise gatherings).
-2)	 Help for the deaf people to understand what the other person is speaking. If we can integrate this project to an IOT device, then this can be a device that can be sent to the production line to be a very big help for the people with disabled hearing.
-3)	A tool that can be used by the intelligence agencies for spying purpose.
+- Help in understanding what the speaker is speaking when there is noise in the background (like when travelling in a vehicle or watching a video in a very noise gatherings).
+- Help for the deaf people to understand what the other person is speaking. If we can integrate this project to an IOT device, then this can be a device that can be sent to the production line to be a very big help for the people with disabled hearing.
+- A tool that can be used by the intelligence agencies for spying purpose.
 
+## Reference :
+- Yannis M. Assael, Brendan Shillingford, Shimon Whiteson, Nando de Freitas, “ LipNet: End-To-End Sentence-Level Lip-reading”on 2016. [Read link](https://arxiv.org/abs/1611.01599)
+- Amit Garg, Jonathan Noyola, Sameep Bagadia, 2017 “Lip reading using CNN and and LSTM ” on 2017  [Read link](http://cs231n.stanford.edu/reports/2017/pdfs/227.pdf)
+- Andrew Owens, Phillip Isola, Josh McDermott, Antonio Torralba, Edward H. Adelson, William T. Freeman,  “Visually Indicated Sounds” on 2016 [Read link](https://arxiv.org/abs/1512.08512)
+- Joon Son Chung, Andrew Senior, Oriol Vinyals, Andrew  Zisserman, “Lip Reading in Wild” on 2016 [Read link](https://arxiv.org/abs/1611.05358)
+- Joon Son Chung and Andrew Zisserman , “ Out of time: automated lip sync in the wild”, on 2016 [Read link](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a)
