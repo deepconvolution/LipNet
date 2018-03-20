@@ -1,0 +1,3 @@
+The Status:
+    1) The Relu activation was vanishing, so there was no change in the output of the initial layers after long time.
+        We removed this by replacing the activation by sigmoid.
